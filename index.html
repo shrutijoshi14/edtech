@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Insight Academy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/cid 3d logo.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="edtech.css" />
+    <style></style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+      <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="#home">
+          <img
+            src="images/cid 3d logo.png"
+            class="mx-3"
+            alt="CIA Logo"
+            width="50"
+          />
+          CIA
+        </a>
+        <!-- <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <button
+          class="navbar-toggler ms-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+          <span class="close-icon d-none">&times;</span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active mx-4" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link mx-4"
+                href="https://codeinsightacademy.com/blog/"
+                target="_blank"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNWrmI0T3VnkZnKbUlpdL-IkKOs66Gpd_SwZEwGHVkLuxMfg/viewform?usp=sharing&ouid=104345555902177284084"
+          class="btn btn-warning d-none d-lg-block"
+          target="_blank"
+          >Enroll Now</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-6" data-aos="fade-right">
+            <h1>
+              Empowering Learners with <br />
+              Practical Coding Skills
+            </h1>
+            <p>
+              Master coding with real-world projects in Web Development, Data
+              Science, and Cloud.
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdNWrmI0T3VnkZnKbUlpdL-IkKOs66Gpd_SwZEwGHVkLuxMfg/viewform?usp=sharing&ouid=104345555902177284084"
+              class="btn btn-outline-warning btn-lg me-2"
+              target="_blank"
+              >Enroll Now</a
+            >
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe5mOkIfuGwlxSipN7wy8RjZAWs56bjuON4bc5VNA5v5Nii7A/viewform?usp=sharing&ouid=104345555902177284084"
+              class="btn btn-light btn-lg"
+              target="_blank"
+            >
+              Book Free Demo
+            </a>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <img src="images/15276.jpg" alt="Hero Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about text-center py-5" id="about">
+      <div class="container">
+        <h2 class="mb-4 fw-bold" data-aos="fade-up">
+          About Code Insight Academy
+        </h2>
+        <p class="lead mb-5" data-aos="fade-up" data-aos-delay="100">
+          Code Insight Academy (CIA) is a leading EdTech platform dedicated to
+          transforming education through
+          <strong>practical, project-based learning</strong>. Founded in
+          <strong>2020</strong>, CIA has successfully completed
+          <span class="text-primary fw-bold">5 years</span> of empowering
+          learners and has become a trusted name in coding education across
+          India.
+        </p>
+
+        <!-- Stats Row -->
+        <div class="row g-4 mb-5">
+          <div class="col-md-3" data-aos="zoom-in">
+            <div class="card shadow border-0 h-100 p-4">
+              <i class="bi bi-people fs-1 text-primary mb-3"></i>
+              <h5 class="fw-bold">5000+ Students</h5>
+              <p class="small">Trained across India and abroad</p>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card shadow border-0 h-100 p-4">
+              <i class="bi bi-person-badge fs-1 text-success mb-3"></i>
+              <h5 class="fw-bold">50+ Mentors</h5>
+              <p class="small">Industry experts guiding learners</p>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card shadow border-0 h-100 p-4">
+              <i class="bi bi-journal-code fs-1 text-warning mb-3"></i>
+              <h5 class="fw-bold">200+ Projects</h5>
+              <p class="small">Real-world coding assignments</p>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+            <div class="card shadow border-0 h-100 p-4">
+              <i class="bi bi-award fs-1 text-danger mb-3"></i>
+              <h5 class="fw-bold">95% Success</h5>
+              <p class="small">Student satisfaction rate</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mission & Why Choose -->
+        <div class="row text-start">
+          <div class="col-md-6 mt-5" data-aos="fade-right">
+            <h4 class="fw-bold text-primary">🎯 Our Mission</h4>
+            <p>
+              To bridge the gap between <strong>academic knowledge</strong> and
+              <strong>industry requirements</strong> by providing hands-on
+              coding experience, industry-aligned curriculum, and personal
+              mentorship.
+            </p>
+          </div>
+          <div class="col-md-6 mt-5" data-aos="fade-left">
+            <h4 class="fw-bold text-primary">🤝 Why Choose CIA?</h4>
+            <ul class="list-unstyled">
+              <li>✅ Industry-Ready Curriculum (latest technologies)</li>
+              <li>✅ One-to-One Mentorship & Career Guidance</li>
+              <li>✅ Placement Assistance with Resume & Interview Prep</li>
+              <li>✅ Flexible Learning – Live + Recorded Sessions</li>
+              <li>✅ Recognized Certification after completion</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5" data-aos="fade-up">
+          Courses Offered
+        </h2>
+        <div class="row g-4">
+          <!-- Languages -->
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card h-100 text-center shadow course-card">
+              <div class="card-body">
+                <i class="bi bi-code-slash fs-1 text-primary mb-3"></i>
+                <h5 class="fw-bold">Languages</h5>
+                <p class="text-muted">
+                  C, C++, Python, Java, JS, Go, PHP, NodeJs
+                </p>
+                <button
+                  class="btn btn-outline-primary btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#languagesModal"
+                >
+                  View Syllabus
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Website Designing -->
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card h-100 text-center shadow course-card">
+              <div class="card-body">
+                <i class="bi bi-window fs-1 text-success mb-3"></i>
+                <h5 class="fw-bold">Website Designing</h5>
+                <p class="text-muted">
+                  HTML, CSS, JavaScript, jQuery, UI/UX, GitHub
+                </p>
+                <button
+                  class="btn btn-outline-success btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#designModal"
+                >
+                  View Syllabus
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Website Development -->
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+            <div class="card h-100 text-center shadow course-card">
+              <div class="card-body">
+                <i class="bi bi-laptop fs-1 text-warning mb-3"></i>
+                <h5 class="fw-bold">Website Development</h5>
+                <p class="text-muted">
+                  PHP, Node, MySQL, WordPress, Java, Projects
+                </p>
+                <button
+                  class="btn btn-outline-warning btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#developmentModal"
+                >
+                  View Syllabus
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Full Stack -->
+          <div class="col-md-3" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card h-100 text-center shadow course-card">
+              <div class="card-body">
+                <i class="bi bi-stack fs-1 text-danger mb-3"></i>
+                <h5 class="fw-bold">Full Stack (DiIT)</h5>
+                <p class="text-muted">
+                  Frontend, Backend, SQL/NoSQL, MERN/MEAN, Agile, Internship
+                </p>
+                <button
+                  class="btn btn-outline-danger btn-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#fullstackModal"
+                >
+                  View Syllabus
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Languages Modal -->
+    <div class="modal fade" id="languagesModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header bg-primary text-white">
+            <h5 class="modal-title">Languages</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h6 class="fw-bold">Core Programming</h6>
+            <ul>
+              <li>C, C++ – Fundamentals, OOP, Data Structures</li>
+              <li>Java – OOP, Collections, Exception Handling</li>
+              <li>Python – Basics to Advanced, File Handling, OOP</li>
+            </ul>
+
+            <h6 class="fw-bold mt-3">Web Technologies</h6>
+            <ul>
+              <li>HTML5, CSS3 – Semantic tags, Responsive design</li>
+              <li>Bootstrap – Grid, Components, Customization</li>
+              <li>JavaScript – ES6+, DOM, Events, Async/Await</li>
+              <li>NodeJS – Basics, ExpressJS intro</li>
+            </ul>
+
+            <h6 class="fw-bold mt-3">Extra Technologies</h6>
+            <ul>
+              <li>GoLang – Basics & Concurrency</li>
+              <li>PHP – Basics, Forms, MySQL Connection</li>
+            </ul>
+            <a href="https://codeinsightacademy.com/blog">
+              <button class="btn btn-outline-primary btn-sm">
+                View Details
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Website Designing Modal -->
+    <div class="modal fade" id="designModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header bg-success text-white">
+            <h5 class="modal-title">Website Designing</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h6 class="fw-bold">Frontend Basics</h6>
+            <ul>
+              <li>HTML5 – Forms, Media, SEO tags</li>
+              <li>CSS3 – Flexbox, Grid, Animations</li>
+              <li>JavaScript – DOM Manipulation, Events</li>
+            </ul>
+
+            <h6 class="fw-bold mt-3">Advanced UI/UX</h6>
+            <ul>
+              <li>jQuery – DOM, AJAX, Effects</li>
+              <li>UI/UX – Design Principles, Wireframes</li>
+              <li>GitHub – Version Control Basics</li>
+            </ul>
+            <a
+              href="https://codeinsightacademy.com/blog/html5-and-css3-contents/"
+            >
+              <button class="btn btn-outline-success btn-sm">
+                View Details
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Website Development Modal -->
+    <div class="modal fade" id="developmentModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header bg-warning text-dark">
+            <h5 class="modal-title">Website Development</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h6 class="fw-bold">Backend Development</h6>
+            <ul>
+              <li>PHP / NodeJS – APIs, Authentication</li>
+              <li>Python / Java – Web frameworks basics</li>
+            </ul>
+
+            <h6 class="fw-bold mt-3">Frontend Development</h6>
+            <ul>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>WordPress CMS Basics</li>
+            </ul>
+
+            <h6 class="fw-bold mt-3">Databases</h6>
+            <ul>
+              <li>MySQL – Queries, Joins, Indexing</li>
+            </ul>
+
+            <h6 class="fw-bold mt-3">Project Work</h6>
+            <p>
+              Students will create a **live website** as a capstone project.
+            </p>
+            <a href="https://codeinsightacademy.com/blog/javascript/">
+              <button class="btn btn-outline-warning btn-sm">
+                View Details
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Full Stack Modal -->
+    <div class="modal fade" id="fullstackModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header bg-danger text-white">
+            <h5 class="modal-title">DiIT (Full Stack)</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h6 class="fw-bold">Frontend Development</h6>
+            <ul>
+              <li>HTML5 / CSS3 / JavaScript (ES6+)</li>
+              <li>ReactJS Basics</li>
+            </ul>
+
+            <h6 class="fw-bold mt-3">Backend Development</h6>
+            <ul>
+              <li>NodeJS / ExpressJS</li>
+              <li>Python Flask/Django or Java Spring Basics</li>
+            </ul>
+
+            <h6 class="fw-bold mt-3">Databases</h6>
+            <ul>
+              <li>SQL – MySQL, PostgreSQL</li>
+              <li>NoSQL – MongoDB</li>
+            </ul>
+
+            <h6 class="fw-bold mt-3">Other Skills</h6>
+            <ul>
+              <li>MERN / MEAN Stack integration</li>
+              <li>Agile & Scrum using Jira</li>
+              <li>Resume Building + Mock Interviews</li>
+              <li>Internship Program</li>
+            </ul>
+            <a
+              href="https://codeinsightacademy.com/blog/programming/core-java-contents/"
+            >
+              <button class="btn btn-outline-danger btn-sm">
+                View Details
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Carousel -->
+    <section id="testimonials" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-4">What Our Students Say</h2>
+
+        <div
+          id="reviewCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row g-3">
+                <div class="col-md-4">
+                  <div class="p-4 bg-white shadow rounded h-100">
+                    <h6 class="fw-bold">Aryan Maurya</h6>
+                    <p class="text-muted small">⭐⭐⭐⭐</p>
+                    <p class="testimonial-text">
+                      Shailesh Sir was incredibly polite and friendly sir. I was
+                      a newbie and he made it so easy to learn. Really
+                      incredible.
+                    </p>
+                    <div class="text-center mt-2">
+                      <button
+                        class="btn btn-outline-primary btn-sm rounded-pill read-more"
+                      >
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="p-4 bg-white shadow rounded h-100">
+                    <h6 class="fw-bold">Roshni Yadav</h6>
+                    <p class="text-muted small">⭐⭐⭐⭐</p>
+                    <p class="testimonial-text">
+                      Shailesh sir is very polite to each and every student.He
+                      always gives 100% efforts for the student's career and he
+                      never make feel to anyone like a nothing.he always praise
+                      the students.He is the best mentor
+                    </p>
+                    <div class="text-center mt-2">
+                      <button
+                        class="btn btn-outline-primary btn-sm rounded-pill read-more"
+                      >
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="p-4 bg-white shadow rounded h-100">
+                    <h6 class="fw-bold">Sohel Ahmed</h6>
+                    <p class="text-muted small">⭐⭐⭐⭐⭐</p>
+                    <p class="testimonial-text">
+                      Generally I never give 5 star rating to anyone but this
+                      time the dedication of trainer and wil to teach core
+                      branch students is even from basics is just praiseworthy.
+                      I really find those training section helpful getting
+                      friendly in full stack development course. Khushal Sir was
+                      our class trainer .He really help to teach us from scratch
+                      and individual doubt solving done by tushar,pratik and
+                      sushant Sir was very helpful.
+                    </p>
+                    <div class="text-center mt-2">
+                      <button
+                        class="btn btn-outline-primary btn-sm rounded-pill read-more"
+                      >
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row g-3">
+                <div class="col-md-4">
+                  <div class="p-4 bg-white shadow rounded h-100">
+                    <h6 class="fw-bold">Kamini Khandare</h6>
+                    <p class="text-muted small">⭐⭐⭐⭐⭐</p>
+                    <p class="testimonial-text">
+                      He don't waste any single minite He has so much of
+                      knowledge with him and he tried his best to give his 100%
+                      to make it an efficient and beneficial workshop for
+                      us...and thanks for it sir
+                    </p>
+                    <div class="text-center mt-2">
+                      <button
+                        class="btn btn-outline-primary btn-sm rounded-pill read-more"
+                      >
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="p-4 bg-white shadow rounded h-100">
+                    <h6 class="fw-bold">Vishal Singh</h6>
+                    <p class="text-muted small">⭐⭐⭐⭐⭐</p>
+                    <p class="testimonial-text">
+                      It was a 5 days long session with 6hrs of study each day
+                      in Thakur College of Engineering and Technology. The
+                      sessions were conducted smoothly. Professor Sailesh Sonare
+                      sir's explanation was very good. He was able to clear our
+                      doubts. It was a very interactive session. Thanks
+                      Alot🙏🏻✨.
+                    </p>
+                    <div class="text-center mt-2">
+                      <button
+                        class="btn btn-outline-primary btn-sm rounded-pill read-more"
+                      >
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="p-4 bg-white shadow rounded h-100">
+                    <h6 class="fw-bold">Shruti Amle</h6>
+                    <p class="text-muted small">⭐⭐⭐⭐⭐</p>
+                    <p class="testimonial-text">
+                      - Informative and engaging sessions - Experienced trainers
+                      and speakers - Hands-on activities and practical learning
+                      - Opportunities for networking and collaboration.
+                    </p>
+                    <div class="text-center mt-2">
+                      <button
+                        class="btn btn-outline-primary btn-sm rounded-pill read-more"
+                      >
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#reviewCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#reviewCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5" data-aos="fade-up">
+          Get In Touch
+        </h2>
+        <div class="row g-4">
+          <!-- Contact Info -->
+          <div class="col-md-6" data-aos="fade-right">
+            <div class="p-4 bg-white shadow rounded h-100">
+              <h5 class="fw-bold mb-3">Contact Information</h5>
+              <p>
+                <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                Vidya Nagar, Koradi Road, Nagpur - 440026, India
+              </p>
+              <p>
+                <i class="bi bi-telephone-fill text-primary me-2"></i>
+                +91 91720 07007
+              </p>
+              <p>
+                <i class="bi bi-envelope-fill text-primary me-2"></i>
+                codeinsightacademy@gmail.com
+              </p>
+              <div class="mt-3">
+                <a
+                  href="https://www.facebook.com/share/17CwKqsnVi/"
+                  class="social-icon me-3"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/codeinsightacademy?igsh=N3Bld2ZqbmFzcHJp"
+                  class="social-icon me-3"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/code-insight-academy/"
+                  class="social-icon me-3"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/@CodeInsightAcademy"
+                  class="social-icon me-3"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Google Map -->
+          <div class="col-md-6" data-aos="fade-left">
+            <div class="p-4 bg-white shadow rounded h-100">
+              <h5 class="fw-bold mb-3">Find Us on Map</h5>
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.google.com/maps?q=Vidya+Nagar+Modern+School+Koradi+Road+Nagpur&output=embed"
+                  allowfullscreen
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  style="border-radius: 8px"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light pt-5">
+      <div class="container">
+        <div class="row">
+          <!-- About -->
+          <div class="col-md-4 mb-4" data-aos="fade-up">
+            <h5 class="fw-bold">Code Insight Academy</h5>
+            <p>
+              Empowering learners with project-based coding education. 5+ years
+              of excellence in EdTech.
+            </p>
+            <div class="d-flex gap-3">
+              <a
+                href="https://www.facebook.com/share/17CwKqsnVi/"
+                class="social-icon text-light"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/codeinsightacademy?igsh=N3Bld2ZqbmFzcHJp"
+                class="social-icon text-light"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/code-insight-academy/"
+                class="social-icon text-light"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/@CodeInsightAcademy"
+                class="social-icon text-light"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <h5 class="fw-bold">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#home" class="text-light text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="text-light text-decoration-none"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#courses" class="text-light text-decoration-none"
+                  >Courses</a
+                >
+              </li>
+              <li>
+                <a href="#testimonials" class="text-light text-decoration-none"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="text-light text-decoration-none"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Courses -->
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <h5 class="fw-bold">Our Courses</h5>
+            <ul class="list-unstyled">
+              <li>Languages</li>
+              <li>Website Designing</li>
+              <li>Website Development</li>
+              <li>Full Stack (DiIT)</li>
+              <li>Data Science</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="my-4 text-light" />
+
+        <div class="text-center pb-3">
+          <p class="mb-0">© 2025 Code Insight Academy. All Rights Reserved.</p>
+          <small>Made with ❤️ by CIA Team</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="edtech.js"></script>
+  </body>
+</html>

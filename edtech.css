@@ -1,0 +1,156 @@
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  opacity: 0.6;
+}
+
+.navbar-toggler .close-icon {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 1;
+}
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #133e78, #3d75be);
+  color: #fff;
+  padding: 100px 0;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.hero p {
+  font-size: 1.2rem;
+}
+.hero img {
+  max-width: 90%;
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.about h2 {
+  font-size: 2.2rem;
+  color: #133e78;
+}
+.about .card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.about .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+.about ul li {
+  padding: 6px 0;
+  font-size: 1rem;
+}
+
+/* Courses */
+.course-card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials */
+.testimonial-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.testimonial-text {
+  font-style: italic;
+  font-size: 0.95rem;
+  max-height: 70px; /* collapsed height */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: max-height 0.6s ease, opacity 0.6s ease;
+  opacity: 0.9;
+}
+
+.testimonial-text.expanded {
+  opacity: 1;
+}
+
+.read-more {
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.read-more:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Contact */
+#contact h2 {
+  color: #133e78;
+}
+#contact .form-control:focus {
+  border-color: #133e78;
+  box-shadow: 0 0 5px rgba(19, 62, 120, 0.5);
+}
+#contact .social-icon {
+  font-size: 1.3rem;
+  color: #133e78;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+#contact .social-icon:hover {
+  color: #ffc107;
+  transform: scale(1.2);
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(135deg, #0b4560, #092c40);
+}
+.footer h5 {
+  margin-bottom: 15px;
+}
+.footer a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer a:hover {
+  color: #ffc107;
+}
+.social-icon {
+  font-size: 1.4rem;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #ffc107;
+}
+.newsletter-form input {
+  border-radius: 20px 0 0 20px;
+}
+.newsletter-form button {
+  border-radius: 0 20px 20px 0;
+}
