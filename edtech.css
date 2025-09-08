@@ -17,21 +17,26 @@ img {
 }
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, #133e78, #3d75be);
+  background: url("https://cdn.pixabay.com/photo/2017/07/31/14/45/code-2558220_1280.jpg")
+    no-repeat center center/cover;
   color: #fff;
-  padding: 100px 0;
+  padding: 120px 0;
+  min-height: 100vh; /* ensures full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .hero h1 {
   font-size: 2.8rem;
   font-weight: bold;
 }
+
 .hero p {
   font-size: 1.2rem;
+  margin-bottom: 20px;
 }
-.hero img {
-  max-width: 90%;
-  animation: float 4s ease-in-out infinite;
-}
+
 @keyframes float {
   0% {
     transform: translateY(0);
