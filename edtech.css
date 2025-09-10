@@ -15,6 +15,61 @@ img {
   color: #fff;
   line-height: 1;
 }
+
+/* Navbar tweaks for small devices */
+@media (max-width: 767px) {
+  .navbar-brand img {
+    width: 28px; /* Smaller logo */
+  }
+
+  .navbar .brand-text {
+    font-size: 0.9rem; /* Shrink brand text */
+    white-space: nowrap; /* Prevent wrapping */
+    max-width: 140px; /* Control text width */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ... if too long */
+  }
+
+  .navbar-toggler {
+    margin-left: auto; /* Keep hamburger to the right */
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar .brand-text {
+    font-size: 0.8rem; /* Even smaller text on very small phones */
+    max-width: 100px;
+  }
+}
+
+/* <= 405px : shrink logo + text but keep FULL NAME */
+@media (max-width: 405px) {
+  .navbar-brand img {
+    width: 26px; /* shrink logo */
+  }
+
+  .navbar .brand-text {
+    font-size: 0.7rem; /* shrink text */
+    white-space: nowrap; /* keep full text in one line */
+  }
+
+  .navbar-toggler {
+    margin-left: auto; /* keep toggler to the right */
+    padding: 2px 6px; /* smaller button */
+  }
+}
+
+/* <= 340px : finally switch to short form */
+@media (max-width: 340px) {
+  .navbar .brand-text {
+    font-size: 0; /* hide full text */
+  }
+  .navbar .brand-text::after {
+    content: "CIA"; /* show short version */
+    font-size: 0.8rem;
+  }
+}
+
 /* Hero */
 .hero {
   background: url("https://cdn.pixabay.com/photo/2017/07/31/14/45/code-2558220_1280.jpg")
