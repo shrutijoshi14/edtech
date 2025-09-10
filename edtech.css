@@ -42,31 +42,36 @@ img {
   }
 }
 
-/* <= 405px : shrink logo + text but keep FULL NAME */
+/* <= 405px : shrink logo + text, keep FULL NAME */
 @media (max-width: 405px) {
   .navbar-brand img {
-    width: 26px; /* shrink logo */
+    width: 25px; /* smaller logo */
   }
 
   .navbar .brand-text {
-    font-size: 0.7rem; /* shrink text */
-    white-space: nowrap; /* keep full text in one line */
+    font-size: 0.7rem; /* smaller text */
+    white-space: nowrap; /* keep full text on one line */
   }
 
   .navbar-toggler {
-    margin-left: auto; /* keep toggler to the right */
+    margin-left: auto; /* push hamburger to right */
     padding: 2px 6px; /* smaller button */
   }
 }
 
-/* <= 340px : finally switch to short form */
+/* <= 340px : shrink logo more + switch text to CIA */
 @media (max-width: 340px) {
+  .navbar-brand img {
+    width: 22px; /* extra small logo */
+  }
+
   .navbar .brand-text {
     font-size: 0; /* hide full text */
   }
+
   .navbar .brand-text::after {
-    content: "CIA"; /* show short version */
-    font-size: 0.8rem;
+    content: "CIA"; /* short version */
+    font-size: 0.8rem; /* readable size */
   }
 }
 
