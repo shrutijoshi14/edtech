@@ -112,9 +112,9 @@ img {
 }
 
 /* Contact */
-#contact h2 {
+/* #contact h2 {
   color: #133e78;
-}
+} */
 #contact .form-control:focus {
   border-color: #133e78;
   box-shadow: 0 0 5px rgba(19, 62, 120, 0.5);
