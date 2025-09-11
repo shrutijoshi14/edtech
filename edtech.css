@@ -16,18 +16,22 @@ img {
   line-height: 1;
 }
 
+.navbar-brand img {
+  width: 27px; /* Smaller logo */
+}
+
 /* Navbar tweaks for small devices */
 @media (max-width: 767px) {
   .navbar-brand img {
-    width: 28px; /* Smaller logo */
+    width: 20px; /* Smaller logo */
   }
 
   .navbar .brand-text {
     font-size: 0.9rem; /* Shrink brand text */
     white-space: nowrap; /* Prevent wrapping */
     max-width: 140px; /* Control text width */
-    overflow: hidden;
-    text-overflow: ellipsis; /* Show ... if too long */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; Show ... if too long */
   }
 
   .navbar-toggler {
@@ -45,7 +49,7 @@ img {
 /* <= 405px : shrink logo + text, keep FULL NAME */
 @media (max-width: 405px) {
   .navbar-brand img {
-    width: 25px; /* smaller logo */
+    width: 18px; /* smaller logo */
   }
 
   .navbar .brand-text {
@@ -62,7 +66,7 @@ img {
 /* <= 340px : shrink logo more + switch text to CIA */
 @media (max-width: 340px) {
   .navbar-brand img {
-    width: 22px; /* extra small logo */
+    width: 18px; /* extra small logo */
   }
 
   .navbar .brand-text {
